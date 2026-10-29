@@ -2,15 +2,18 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-family: Arial, sans-serif;
 }
 .welcome {
   display: flex;
   flex-direction: row;
-  height: 100vh;
-  min-height: 720px;
+  justify-content: space-between;
+  height: 100vh;  
+  min-width: 100%;
   max-height: 800px;
-  padding: 30px 100px 40px;
+  padding: 30px 50px 40px 50px;
   box-sizing: border-box;
+  margin: 0 0 20px 8%;
 }
 
 .page {
@@ -18,26 +21,23 @@ body {
   min-width: 1100px;
   max-width: 1600px;
   flex-direction: column;
-  font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  margin: 0 0 0 200px;
+  
 }
 
-
-
-.nav {
+.page-nav {
   display: flex;
   justify-content: space-between;
   gap: 600px;
 }
 
-.nav__logo {
+.page-nav__logo {
   height: 80px;
   width: 58px;
 }
 
-.nav__links {
+.page-nav__links {
   display: flex;
   justify-content: space-between;
   margin: 8px 0 0;
@@ -48,40 +48,42 @@ body {
   padding: 0;
 }
 
-.nav__link {
+.page-nav__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
   width: 8px;
 }
 
-.header__content {
+.header-content {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  gap: 350px;
 }
 
-.header__title {
+.header-content__title {
   max-width: 635px;
-  font-size: 62px;
+  font-size: 50px;
   line-height: 76px;
   font-weight: 500px;
   margin-top: 128px;
 }
 
-.header__description {
+.header-content__description {
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
   margin-top: 32px;
 }
 
-.header__image {
-  max-width: 40%;
+.header-content__image{
+height: 600px;
+margin-top: 50px;
 
 }
 
-.header__footer {
-  margin-top: auto;
+.header-footer {
   width: 100%;
   display: flex;
   align-items: center;
@@ -139,7 +141,7 @@ body {
   display: flex;
   justify-content: center;
   width: 360px;
-  height: 420px;
+  height: 520px;
   list-style-type: none;
   background-color: white;
 }
@@ -182,15 +184,15 @@ flex-direction: row;
   justify-content: center;
 
 }
-.Events-info_next{
+.Events-info__next{
   font-size: 40px;
 }
-.Events-info_homanage{
+.Events-info__homanage{
   font-size: 70px;
   max-width: 80%;
  
 }
-.Events-info_data{
+.Events-info__data{
   display: flex;
   align-items: center;
   justify-content: start;
@@ -198,7 +200,7 @@ flex-direction: row;
   gap: 20px;
   max-width: 80%;
 }
-.Events-info_location{
+.Events-info__location{
   display: flex;
   align-items: center;
   justify-content: start;
@@ -206,11 +208,11 @@ flex-direction: row;
   gap: 15px;
   max-width: 700px;
 }
-.Events-info_description{
+.Events-info__description{
   font-size: 20px;
-  max-width: 50%;
+  max-width: 100%;
 }
-.Events-info_more{
+.Events-info__more{
 color: rgb(8, 117, 242);
 font-size: 20px;
 }
@@ -221,85 +223,85 @@ font-size: 20px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-.Events-img_background{
+.Events-img__background{
   justify-content: center;
   align-items: center;
   position: relative;
   margin: 220px 0px 0px 50px;
   height: 60%;
 }
-.Events-img_list{
+.Events-img__list{
   list-style-type: none;
   display: flex;
 }
-.Events-img_list_Feynman,
-.Events-img_list_Tarte,
-.Events-img_list_Mitchell,
-.Events-img_list_Cannon,
-.Events-img_list_MargaretBurbidge{
+.Events-img__list_Feynman,
+.Events-img__list_Tarte,
+.Events-img__list_Mitchell,
+.Events-img__list_Cannon,
+.Events-img__list_MargaretBurbidge{
   display: flex;
   align-items: center;
   width: 15%;
 }
-.Events-img_list_Feynman{
+.Events-img__list_Feynman{
   position: relative;
   margin: -825px 0px 0px 410px;
  flex-direction: column;
 
 }
 
-.Events-img_list_Feynman_text{
+.Events-img__list_Feynman_text{
   font-size: 20px;
 }
 
-.Events-img_list_Feynman_img{
+.Events-img__list_Feynman_img{
   width: 190px;
 }
 
-.Events-img_list_Tarte{
+.Events-img__list_Tarte{
   position: relative;
   margin: -650px 0px 0px -370px;
   flex-direction: column;
 }
 
-.Events-img_list_Tarte_text{
+.Events-img__list_Tarte_text{
   font-size: 15px;
 }
 
-.Events-img_list_Tarte_img{
+.Events-img__list_Tarte_img{
   width: 125px;
 }
-.Events-img_list_Mitchell{
+.Events-img__list_Mitchell{
   position: relative;
   margin: -500px 0px 90px -170px;
   flex-direction: column-reverse;
 }
-.Events-img_list_Mitchell_text{
+.Events-img__list_Mitchell_text{
 font-size: 15px;
 }
-.Events-img_list_Mitchell_img{
+.Events-img__list_Mitchell_img{
   width: 110px;
 }
-.Events-img_list_Cannon{
+.Events-img__list_Cannon{
   position: relative;
   margin: -250px 0px 0px 250px;
   flex-direction: column-reverse;
 }
-.Events-img_list_Cannon_text{
+.Events-img__list_Cannon_text{
   font-size: 15px;
 }
-.Events-img_list_Cannon_img{
+.Events-img__list_Cannon_img{
   width: 125px;
 }
-.Events-img_list_MargaretBurbidge{
+.Events-img__list_MargaretBurbidge{
   position: relative;
   margin: -650px 0px 0px -50px;
   flex-direction: column;
 }
-.Events-img_list_MargaretBurbidge_text{
+.Events-img__list_MargaretBurbidge_text{
   font-size: 15px;
 }
-.Events-img_list_MargaretBurbidge_img{
+.Events-img__list_MargaretBurbidge_img{
   width: 125px;
 }
 
@@ -315,7 +317,7 @@ font-size: 15px;
 .member-sugestion{
  text-align: center;
   font-size: 50px;
-  max-width: 550px;
+  max-width: 700px;
 }
 
 .member-list{
@@ -326,7 +328,7 @@ font-size: 15px;
   gap: 20px;
   
 }
-.member-list_item{
+.member-list__item{
   display: flex;
   font-size: 15px;
   flex-direction: column;
@@ -351,7 +353,7 @@ font-size: 15px;
 
   
 }
-.contato-marca_logo{  
+.contato-marca__logo{  
   height: 80px;
   width: 58px;
 }
