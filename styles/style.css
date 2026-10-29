@@ -230,78 +230,78 @@ font-size: 20px;
   margin: 220px 0px 0px 50px;
   height: 60%;
 }
-.Events-img__list{
+.Events-img__lists{
   list-style-type: none;
   display: flex;
 }
-.Events-img__list_Feynman,
-.Events-img__list_Tarte,
-.Events-img__list_Mitchell,
-.Events-img__list_Cannon,
-.Events-img__list_MargaretBurbidge{
+.Events-img__lists-Feynman,
+.Events-img__lists-Tarte,
+.Events-img__lists-Mitchell,
+.Events-img__lists-Cannon,
+.Events-img__lists-MargaretBurbidge{
   display: flex;
   align-items: center;
   width: 15%;
 }
-.Events-img__list_Feynman{
+.Events-img__lists-Feynman{
   position: relative;
-  margin: -825px 0px 0px 410px;
+  margin: -825px 0px 0px 400px;
  flex-direction: column;
 
 }
 
-.Events-img__list_Feynman_text{
+.Events-img__lists-Feynman_text{
   font-size: 20px;
 }
 
-.Events-img__list_Feynman_img{
-  width: 190px;
+.Events-img__lists-Feynman_img{
+  width: 150px;
 }
 
-.Events-img__list_Tarte{
+.Events-img__lists-Tarte{
   position: relative;
   margin: -650px 0px 0px -370px;
   flex-direction: column;
 }
 
-.Events-img__list_Tarte_text{
+.Events-img__lists-Tarte_text{
   font-size: 15px;
 }
 
-.Events-img__list_Tarte_img{
+.Events-img__lists-Tarte_img{
   width: 125px;
 }
-.Events-img__list_Mitchell{
+.Events-img__lists-Mitchell{
   position: relative;
   margin: -500px 0px 90px -170px;
   flex-direction: column-reverse;
 }
-.Events-img__list_Mitchell_text{
+.Events-img__lists-Mitchell_text{
 font-size: 15px;
 }
-.Events-img__list_Mitchell_img{
+.Events-img__lists-Mitchell_img{
   width: 110px;
 }
-.Events-img__list_Cannon{
+.Events-img__lists-Cannon{
   position: relative;
   margin: -250px 0px 0px 250px;
   flex-direction: column-reverse;
 }
-.Events-img__list_Cannon_text{
+.Events-img__lists-Cannon_text{
   font-size: 15px;
 }
-.Events-img__list_Cannon_img{
+.Events-img__lists-Cannon_img{
   width: 125px;
 }
-.Events-img__list_MargaretBurbidge{
+.Events-img__lists-MargaretBurbidge{
   position: relative;
   margin: -650px 0px 0px -50px;
   flex-direction: column;
 }
-.Events-img__list_MargaretBurbidge_text{
+.Events-img__lists-MargaretBurbidge_text{
   font-size: 15px;
 }
-.Events-img__list_MargaretBurbidge_img{
+.Events-img__lists-MargaretBurbidge_img{
   width: 125px;
 }
 
