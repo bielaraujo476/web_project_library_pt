@@ -9,11 +9,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   height: 100vh;  
-  min-width: 100%;
-  max-height: 800px;
-  padding: 30px 50px 40px 50px;
+  max-width: 100%;
+  max-height: 900px;
+  padding: 30px 50px 40px 340px;
   box-sizing: border-box;
-  margin: 0 0 20px 8%;
+ 
 }
 
 .page {
@@ -37,7 +37,7 @@ body {
   width: 58px;
 }
 
-.page-nav__links {
+.nav__links{
   display: flex;
   justify-content: space-between;
   margin: 8px 0 0;
@@ -48,14 +48,14 @@ body {
   padding: 0;
 }
 
-.page-nav__link {
+.nav__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
   width: 8px;
 }
 
-.header-content {
+.header-content{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -72,7 +72,7 @@ body {
 
 .header-content__description {
   max-width: 515px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
   margin-top: 32px;
 }
@@ -167,32 +167,33 @@ margin-top: 50px;
   width: 90%;
 }
 
-.Events{
+.events{
 display: flex;
 flex-direction: row;
- height: 1000px;
  background-color: rgb(242, 242, 242);
  height: 1200px;
+padding: 150px 10px 0  180px;
 
 }
 
-.Events-info{ 
+.events-info{ 
   display: flex;
   flex-direction: column;
   margin: 40px 80px 40px 80px;
-  max-width: 45%;
+  max-width: 50%;
   justify-content: center;
+  
 
 }
-.Events-info__next{
+.events__subtitle{
   font-size: 40px;
 }
-.Events-info__homanage{
+.events__title{
   font-size: 70px;
   max-width: 80%;
  
 }
-.Events-info__data{
+.events__meta{
   display: flex;
   align-items: center;
   justify-content: start;
@@ -200,112 +201,101 @@ flex-direction: row;
   gap: 20px;
   max-width: 80%;
 }
-.Events-info__location{
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  font-size: 25px;
-  gap: 15px;
-  max-width: 700px;
-}
-.Events-info__description{
+
+.events__description{
   font-size: 20px;
-  max-width: 100%;
+  max-width: 70%;
 }
-.Events-info__more{
+.events__more{
 color: rgb(8, 117, 242);
 font-size: 20px;
+
 }
 
-.Events-img{
-  width: 50%;
-
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+.events__gallery{
+  max-width: 50%;
+ 
 }
-.Events-img__background{
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 220px 0px 0px 50px;
-  height: 60%;
+.events__background{
+  width: 1100px;
 }
-.Events-img__lists{
+.events__list{
   list-style-type: none;
   display: flex;
 }
-.Events-lists__Feynman,
-.Events-lists__Tarte,
-.Events-lists__Mitchell,
-.Events-lists__Cannon,
-.Events-lists__MargaretBurbidge{
+.events__personFeynman,
+.events__personTarter,
+.events__personMaria,
+.events__personCannon,
+.events__personBurbidge{
   display: flex;
   align-items: center;
+  flex-direction: column;
   width: 15%;
+  gap: 20px;
 }
-.Events-lists__Feynman{
+.events__personFeynman{
   position: relative;
-  margin: -825px 0px 0px 400px;
- flex-direction: column;
+  margin: -855px 0px 0px 420px;
 
 }
 
-.Events-lists__Feynman_text{
+.events__personFeynman-name{
   font-size: 20px;
 }
 
-.Events-lists__Feynman_img{
+.events__personFeynman-photo{
+  width: 200px;
+}
+
+.events__personTarter{
+  position: relative;
+  margin: -740px 0px 0px -410px;
+  flex-direction: column;
+}
+
+.events__personTarter-name{
+  font-size: 20px;
+}
+
+.events__personTarter-photo{
+  width: 150px;
+}
+.events__personMaria{
+  position: relative;
+  margin: -500px 0px 90px -180px;
+  flex-direction: column-reverse;
+}
+.events__personMaria-name{
+font-size: 15px;
+}
+.events__personMaria-photo{
+  width: 125px;
+}
+.events__personCannon{
+  position: relative;
+  margin: -450px 0px 0px 300px;
+  flex-direction: column-reverse;
+}
+.events__personCannon-name{
+  font-size: 15px;
+}
+.events__personCannon-photo{
+  width: 125px;
+}
+.events__personBurbidge{
+  position: relative;
+  margin: -720px 0px 0px -50px;
+  flex-direction: column;
+}
+.events__personBurbidge-name{
+  font-size: 15px;
+}
+.events__personBurbidge-photo{
   width: 150px;
 }
 
-.Events-lists__Tarte{
-  position: relative;
-  margin: -650px 0px 0px -370px;
-  flex-direction: column;
-}
-
-.Events-lists__Tarte_text{
-  font-size: 15px;
-}
-
-.Events-lists__Tarte_img{
-  width: 125px;
-}
-.Events-lists__Mitchell{
-  position: relative;
-  margin: -500px 0px 90px -170px;
-  flex-direction: column-reverse;
-}
-.Events-lists__Mitchell_text{
-font-size: 15px;
-}
-.Events-lists__Mitchell_img{
-  width: 110px;
-}
-.Events-lists__Cannon{
-  position: relative;
-  margin: -250px 0px 0px 250px;
-  flex-direction: column-reverse;
-}
-.Events-lists__Cannon_text{
-  font-size: 15px;
-}
-.Events-lists__Cannon_img{
-  width: 125px;
-}
-.Events-lists__MargaretBurbidge{
-  position: relative;
-  margin: -650px 0px 0px -50px;
-  flex-direction: column;
-}
-.Events-lists__MargaretBurbidge_text{
-  font-size: 15px;
-}
-.Events-lists__MargaretBurbidge_img{
-  width: 125px;
-}
-
-.member{
+.membership{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -314,13 +304,13 @@ font-size: 15px;
   color: white;
   height: 500px;
 }
-.member-sugestion{
+.membership__title{
  text-align: center;
   font-size: 50px;
   max-width: 700px;
 }
 
-.member-list{
+.membership__steps{
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -328,38 +318,46 @@ font-size: 15px;
   gap: 20px;
   
 }
-.member-list__item{
+.footer{
   display: flex;
   font-size: 15px;
-  flex-direction: column;
-  max-width: 200px;
-  width: 200px;
-}
-
-.contato{
-  display: flex;
-  justify-content: space-between;
-  color: white;
+  flex-direction: row;
+  max-width: 100%;
   background-color: black ;
+  justify-content: space-between;
   padding: 20px 300px 40px;
-
+   color: white;
+  height: 300px;
 }
 
-.contato-marca{
+.footer__brand{
   display: flex;  
  flex-direction: column;
- gap: 100px;
+ gap: 100x;
  padding: 30px 80px 40px;
 
   
 }
-.contato-marca__logo{  
+.footer__logo{  
   height: 80px;
   width: 58px;
 }
-.contato-info{
+.footer__info{
   display: flex;
   justify-content: space-between;
   gap: 100px;
   padding: 30px 80px 40px;
+}
+
+.footer__social{
+  display: flex;
+  flex-direction: column;
+}
+.footer__social-links{
+  display: flex;
+  gap: 10px;
+}
+
+.footer__icon{
+ width: 20px;
 }

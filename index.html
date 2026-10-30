@@ -16,26 +16,26 @@
           <img
             src="./images/logo.svg"
             alt="Logotipo da Biblioteca Triple Peaks"
-            class="nav-logo"
+            class="nav__logo"
           />
-          <
-          <ul class="nav-links">
-            <li class="nav-links__list">
-              <a class="nav-links__list-text" href="#staff">Escolhas da Equipe</a>
+          <ul class="nav__links">
+            <li class="nav__item">
+              <a class="nav__link" href="#staff">Escolhas da Equipe</a>
             </li>
-            <li class="nav-links__list>
-              <a class="nav-links__list-text" href="#events">Eventos</a>
+            <li class="nav__item">
+              <a class="nav__link" href="#events">Eventos</a>
             </li>
-            <li>
-              <a class="nav-links__list-text="#membership">Seja um membro</a>
+            <li class="nav__item">
+              <a class="nav__link" href="#membership">Seja um membro</a>
             </li>
-            <li class="nav-links__list>
-              <a class="nav-links__list-text="#contacts">Contatos</a>
+            <li class="nav__item">
+              <a class="nav__link" href="#contacts">Contatos</a>
             </li>
           </ul>
         </nav>
+        
         <main class="header-content">
-          <div>
+          <div class="header-content__wrapper">
             <h1 class="header-content__title">Bem-vindo à Biblioteca Triple Peaks</h1>
             <p class="header-content__description">
               Temos o prazer de abrir as portas da nossa biblioteca a todos!
@@ -50,6 +50,7 @@
             class="header-content__image"
           />
         </main>
+        
         <section class="header-footer">
           <p class="header-footer__address">Triple Peaks, 200 Success Avenue</p>
         </section>
@@ -57,6 +58,7 @@
     </div>
 
     <main class="content">
+      <!-- Seção Staff -->
       <section class="staff" id="staff">
         <h2 class="staff__title">Escolhas da Equipe</h2>
         <p class="staff__subtitle">Que nossos leitores adoram</p>
@@ -80,8 +82,7 @@
           <li class="card">
             <div class="card__content">
               <h3 class="card__title">
-                A Estrutura e Interpretação de Programas de Computador (SICP, na
-                sigla em inglês)
+                A Estrutura e Interpretação de Programas de Computador (SICP)
               </h3>
               <p class="card__text">
                 Esse é um dos melhores livros para aprender os fundamentos da
@@ -99,8 +100,7 @@
           <li class="card">
             <div class="card__content">
               <h3 class="card__title">
-                O Codificador Limpo: Um Código de Conduta para Programadores
-                Profissionais
+                O Codificador Limpo: Um Código de Conduta para Programadores Profissionais
               </h3>
               <p class="card__text">
                 Compilado pelo experiente desenvolvedor de software e autor
@@ -110,7 +110,7 @@
                 como cultivar a atitude de um programador competente e
                 profissional.
               </p>
-              <p class="card__footer">Steve McConnell</p>
+              <p class="card__footer">Robert C. Martin</p>
             </div>
           </li>
 
@@ -123,7 +123,7 @@
                 Quer saber como escrever um código robusto, independentemente da
                 arquitetura por trás da linguagem de programação escolhida? Em
                 seguida, considere a leitura do livro: Code Complete: Um Manual
-                Prático de Construção de Software. Construção. Ele aborda de
+                Prático de Construção de Software. Ele aborda de
                 forma abrangente tudo relacionado à boa estrutura de código.
               </p>
               <p class="card__footer">Steve McConnell</p>
@@ -131,113 +131,117 @@
           </li>
         </ul>
       </section>
-      <section class="Events" id="events">
-        <div class="Events-info"> 
-          <h1 class="Events-info__next">Próximos eventos:</h1>
-          <h2 class="Events-info__homanage">Em homanagem à Joan Feynman: Mulheres na Astrofísica</h2>
+
+      <!-- Seção Eventos -->
+      <section class="events" id="events">
+        <div class="events__info"> 
+          <h2 class="events__subtitle">Próximos eventos:</h2>
+          <h3 class="events__title">Em homenagem à Joan Feynman: Mulheres na Astrofísica</h3>
          
-         <div class="Events-info__data">
-            <img class="Events-info__data-img"  src="/web_project_library_pt_v4/images/calendar.png" alt="Calendar"></img> 
-            <p class="Events-info__data-text">Segunda-feira, 12 de janeiro</p>
+          <div class="events__meta">
+            <img class="events__icon" src="./images/calendar.png" alt="" /> 
+            <p class="events__text">Segunda-feira, 12 de janeiro</p>
           </div>
 
-          <div class="Events-info__location">
-            <img src="/web_project_library_pt_v4/images/icon_pin.svg" alt="Location"> 
-            <p class="Events-info__location">Sala de Conferências da Biblioteca Triple Peacks</p>
+          <div class="events__meta">
+            <img class="events__icon" src="./images/icon_pin.svg" alt="" /> 
+            <p class="events__text">Sala de Conferências da Biblioteca Triple Peaks</p>
           </div>
           
-          <p class="Events-info__description">Neste evento, que homenageina o homonio da biblioteca, nossa palestrante cnvidada nos levará a uma jornada explorando algumas das mais proeminentes pesquisadoras do mundo 
-            da cinência espacial. É facil acreditar na ideia equivocada de que esse compo era dominado principalmente por homens, mas nossa palestra
-          tem como objetivo mudar essa visão e provar que isso não acontece desde pelo menos o século XVIII. </p>
+          <p class="events__description">
+            Neste evento, que homenageia a homenageada da biblioteca, nossa palestrante convidada nos levará a uma jornada explorando algumas das mais proeminentes pesquisadoras do mundo da ciência espacial. É fácil acreditar na ideia equivocada de que esse campo era dominado principalmente por homens, mas nossa palestra tem como objetivo mudar essa visão e provar que isso não acontece desde pelo menos o século XVIII.
+          </p>
 
-          <p class="Events-info__more">Mais Eventos &rarr; </p>
+          <a class="events__more">Mais Eventos &rarr;</a>
         </div>
-        <div class="Events-img">
 
-          <img class="Events-img__background" src="/web_project_library_pt_v4/images/cafe.png" alt="Café"></img>
+        <div class="events__gallery">
+          <img class="events__background" src="./images/cafe.png" alt="" />
 
-          <ol class="Events-lists">
-            <li class="Events-lists__Feynman">
-              <p class="Events-lists__Feynman_text">Joam Feynman</p>
-              <img class="Events-lists__Feynman_img" src="/web_project_library_pt_v4//images/person_feynman.png" alt="Joan Feynman"></img>
+          <ol class="events__list">
+            <li class="events__personFeynman">
+              <span class="events__personFeynman-name">Joan Feynman</span>
+              <img class="events__personFeynman-photo" src="./images/person_feynman.png" alt="Joan Feynman" />
             </li>
-            <li class="Events-lists-Tarte">
-              <p class="Events-lists__Tarte_text">Jill Tarter</p>
-              <img class="Events-lists__Tarte_img" src="/web_project_library_pt_v4/images/person_tarter.png" alt="Jill Tarter"></img>
+            <li class="events__personTarter">
+              <span class="events__personTarter-name">Jill Tarter</span>
+              <img class="events__personTarter-photo" src="./images/person_tarter.png" alt="Jill Tarter" />
             </li>
-            <li class="Events-lists__Mitchell">
-              <p class="Events-lists__Mitchell_text">Maria Mitchell</p>
-              <img class="Events-lists__Mitchell_img" src="/web_project_library_pt_v4/images/person_mitchell.png" alt="Maria Mitchell"></img>
-            
+            <li class="events__personMaria">
+              <span class="events__personMaria-name">Maria Mitchell</span>
+              <img class="events__personMaria-photo" src="./images/person_mitchell.png" alt="Maria Mitchell" />
             </li>
-            <li class="Events-lists__Cannon">  
-              
-              <p class="Events-lists__Cannon_text">Annie Jump Cannon</p>
-              <img class="Events-lists__Cannon_img" src="/web_project_library_pt_v4/images/person_cannon.png" alt="Annie Jump Cannon"></img>
-              
-              </li>
-            <li class="Events-lists__MargaretBurbidge">
-
-              <p class="Events-lists-MaretBurbidge_text">Margaret Burbidge</p>
-              <img class="Events-lists__MargaretBurbidge_img" src="/web_project_library_pt_v4/images/person_burbidge.png" alt="Margaret Burbidge"></img>
-
+            <li class="events__personCannon">
+              <span class="events__personCannon-name">Annie Jump Cannon</span>
+              <img class="events__personCannon-photo" src="./images/person_cannon.png" alt="Annie Jump Cannon" />
+            </li>
+            <li class="events__personBurbidge">
+              <span class="events__personBurbidge-name">Margaret Burbidge</span>
+              <img class="events__personBurbidge-photo" src="./images/person_burbidge.png" alt="Margaret Burbidge" />
             </li>
           </ol>
         </div>
       </section>
-      <section class="member"  id="membership">
 
-        <h3 class="member-sugestion"> Ser membro da biblioteca é facil.</h3>
+      <!-- Seção Membros -->
+      <section class="membership" id="membership">
+        <h3 class="membership__title">Ser membro da biblioteca é fácil.</h3>
 
-        <ul class="member-list">
-          <li class="member-list__item">
-            <h2 class="member-list__item-title">Passo 1     &rarr; </h2>
-            <p class="member-list__item-text">Preencha o formulário de filiação online.</p>    
+        <ul class="membership__steps">
+          <li class="step">
+            <h4 class="step__title">Passo 1 &rarr;</h4>
+            <p class="step__text">Preencha o formulário de filiação online.</p>    
           </li>
-            
-            <li class="member-list__item">
-            <h2 class="member-list__item-title">Passo 2     &rarr; </h2>
-            <p class="member-list__item-text">Venha retirar seu cartão da biblioteca na recepção.</p>    
+          <li class="step">
+            <h4 class="step__title">Passo 2 &rarr;</h4>
+            <p class="step__text">Venha retirar seu cartão da biblioteca na recepção.</p>    
           </li>
-
-            <li class="member-list__item"> 
-            <h2 class="member-list__item-title">Passo 3    &rarr; </h2>
-            <p class="member-list__item-text">Assine o verso do cartão.</p>    
+          <li class="step"> 
+            <h4 class="step__title">Passo 3 &rarr;</h4>
+            <p class="step__text">Assine o verso do cartão.</p>    
           </li>
-
-            <li class="member-list__item">
-            <h2 class="member-list__item-title">Passo 4 &rarr; </h2>
-            <p class="member-list__item-text">Aproveite todos os incriveis benefícios de ser membro!</p>    
+          <li class="step">
+            <h4 class="step__title">Passo 4 &rarr;</h4>
+            <p class="step__text">Aproveite todos os incríveis benefícios de ser membro!</p>    
           </li>
         </ul>
       </section>
-
     </main>
-    <footer class="contato"  id="contacts">
 
-        <div class="contato-marca">
+    <!-- Rodapé / Contatos -->
+    <footer class="footer" id="contacts">
+      <div class="footer__brand">
+        <img src="./images/logo_white.svg" alt="Logotipo da Biblioteca Triple Peaks" class="footer__logo" />
+        <p class="footer__copyright">&copy; 2026 Gabriel Araujo Fernandes</p>
+      </div>
 
-        <img src="./images/logo_white.svg" alt="Logotipo da Biblioteca Triple Peaks" class="contato-marca__logo" />
+      <div class="footer__info">
 
-        <p class="contato-marca__text">@ 2026 Gabriel Araujo Fernandes</p>
+        
+        <div class="footer__schedule">
+          <h3 class="footer__heading">Horário de Funcionamento</h3>
+
+          <p class="footer__text">Dias úteis: 9h - 20h</p>
+          <p class="footer__text">Finais de semana: 10h - 18h</p>
         </div>
 
-        <div class="contato-info">
+        <div class="footer__social">
+          <h3 class="footer__heading">Redes Sociais</h3>
+          
+          <div class="footer__social-links">
+          
+          <img src="./images/facebook_white.svg" alt="Facebook" class="footer__icon" /> 
+          <p class="footer__title">Facebook</p>
+         
+       </div>
+          <div class="footer__social-links">
 
-          <div class="contato-info__item">
-            <h3 class="contato-info__item-title">Horário de Funcionamento</h3>
-
-            <p class="contato-info__item_title_uteis">Dias úteis: 9h - 20h</p>
-            <p class="contato-info__item_title_fim">Finais de semana: 10h - 18h</p>
-          </div>
-
-          <div class="contato-info__redes">
-            <h3 class="contato-info__redes_title">Redes Sociais</h3>
+          <img src="./images/instagram_white.svg" alt="Instagram" class="footer__icon" /> 
+          <p class="footer__title">Instagram</p>
             
-            <p class="contato-info__redes_facebook"> <img src="./images/facebook_white.svg" alt="Facebook" class="contato-info__redes_icon">Facebook</p>
-            <p class="contato-info__redes_instagram"> <img src="./images/instagram_white.svg" alt="Instagram" class="contato-info__redes_icon">Instagram</p>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
   </body>
 </html>
