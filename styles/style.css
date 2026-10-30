@@ -86,7 +86,9 @@ margin-top: 50px;
 
 }
 
-
+.header__footer{
+  
+}
 
 .header__link {
   color: #2f80ed;
@@ -98,7 +100,9 @@ margin-top: 50px;
   color: #838383;
   padding-top: 5%;
 }
-
+.page{
+  
+}
 .staff {
   display: flex;
   justify-content: center;
