@@ -34,7 +34,7 @@ width: 58px;
 .nav__link{
 color: black;
 text-decoration: none;
-font-weight: 400;
+font-weight: 500;
 }
 .header{}
 .header__content{
@@ -54,10 +54,10 @@ margin-top: 32px;
 font-size: 20px;
 line-height: 30px;
 }
-.header__footer
+.header__footer{}
+
 .header__image{
-  max-width: 636px;
-  
+  max-width: 636px;  
 }
 .header__address{}
 .staff {
