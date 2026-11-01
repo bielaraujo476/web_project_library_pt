@@ -206,7 +206,7 @@ body {
 }
 
 .events__cover {
-  /flex-grow: 1;
+  flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
@@ -227,34 +227,34 @@ body {
 
 .person_name_feynman {
   position: relative;
-  top: -610px ;
-  bottom: 319px;
+  top: -30px ;
+  right: 319px;
 }
 
 .person_name_burbidge {
   position: relative; 
-  left: 215px;
-  bottom: 650px;
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
   flex-direction: column-reverse;
   position: relative; 
-  left: 110px;
-  bottom: 450px;
+  left: 216px;
+  bottom: 18px;
 }
 
 .person_name_mitchell {
   flex-direction: column-reverse;
   position: relative;
-  bottom: 620px;
-  right: 200px;
+  bottom: 82px;
+  right: 142px;
 } 
 
 .person_name_tarter {
   position: relative; 
-  right: 190px;
-  bottom: 1050px;
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
