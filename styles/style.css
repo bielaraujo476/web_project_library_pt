@@ -61,11 +61,11 @@ body {
   line-height: 30px;
 }
 
-.header__footer {
-}
-
 .header__image {
   max-width: 636px;
+}
+
+.header__footer {
 }
 
 .header__address {
