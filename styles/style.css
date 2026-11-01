@@ -34,7 +34,7 @@ width: 58px;
 .nav__link{
 color: black;
 text-decoration: none;
-font-weight: 500;
+font-weight: 200;
 }
 .header{
 
@@ -48,7 +48,7 @@ max-width: 635px;
 margin-top: 128px;
 font-size: 62px;
 line-height: 76px;
-font-weight: 200;
+font-weight: 500;
 }
 .header__description{
 max-width: 515px;
