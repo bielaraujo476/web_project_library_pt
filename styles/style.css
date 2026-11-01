@@ -222,40 +222,34 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .person_name_feynman {
-  position: relative;
-  top: -30px ;
+  top: -30px;
   right: 319px;
 }
 
+.person_name_cannon {
+  bottom: 18px;
+  right: 216px;
+}
+
+.person_name_mitchell {
+  bottom: 82px;
+  left: 142px;
+}
+
 .person_name_burbidge {
-  position: relative; 
   top: 96px;
   right: 125px;
 }
 
-.person_name_cannon {
-  flex-direction: column-reverse;
-  position: relative; 
-  left: 216px;
-  bottom: 18px;
-}
-
-.person_name_mitchell {
-  flex-direction: column-reverse;
-  position: relative;
-  bottom: 82px;
-  right: 142px;
-} 
-
 .person_name_tarter {
-  position: relative; 
   top: 79px;
   left: 159px;
 }
+
 
 .person__image {
   max-width: 100%; 
