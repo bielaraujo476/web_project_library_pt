@@ -27,7 +27,7 @@ width: 58px;
  column-gap: 20px;
   list-style-type: none;
   margin-top: 8px;
-  padding-left: 8px;
+  padding-left: 10px;
   
 
 }
@@ -48,7 +48,7 @@ max-width: 635px;
 margin-top: 128px;
 font-size: 62px;
 line-height: 76px;
-font-weight: 500;
+font-weight: 200;
 }
 .header__description{
 max-width: 515px;
@@ -56,17 +56,12 @@ margin-top: 32px;
 font-size: 20px;
 line-height: 30px;
 }
-.header__footer{
-
-}
+.header__footer{}
 .header__image{
   max-width: 636px;
   
 }
-.header__address{
-  
-    
-}
+.header__address{}
 .staff {
   display: flex;
   justify-content: center;
