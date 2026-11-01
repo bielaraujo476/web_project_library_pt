@@ -2,26 +2,28 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
 }
+
 .page {
-min-width: 1100px;
-max-width: 1600px;
-margin: 0 auto;
-font-family: Arial, sans-serif;
-font-size: 16px; 
-line-height: 20px;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
+}
 
-}
 .nav__logo {
-height: 80px;
-width: 58px;
+  height: 80px;
+  width: 58px;
 }
+
 .nav__links {
   display: flex;
   column-gap: 20px;
@@ -29,36 +31,46 @@ width: 58px;
   margin-top: 8px;
   padding-left: 0;
 }
+
 .nav__link {
   color: black;
   text-decoration: none;
   font-weight: 700;
 }
-.header{}
+
+.header {
+}
+
 .header__content {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
 .header__title {
-max-width: 635px;
-margin-top: 128px;
-font-size: 62px;
-line-height: 76px;
-font-weight: 500;
+  max-width: 635px;
+  margin-top: 128px;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
 }
+
 .header__description {
-max-width: 515px;
-margin-top: 32px;
-font-size: 20px;
-line-height: 30px;
-}
-.header__footer {
+  max-width: 515px;
+  margin-top: 32px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
-  max-width: 636px;  
+  max-width: 636px;
 }
-.header__address {}
+
+.header__footer {
+}
+
+.header__address {
+}
+
 .staff {
   display: flex;
   justify-content: center;
@@ -79,8 +91,8 @@ line-height: 30px;
   justify-content: center;
   flex-wrap: wrap;
   padding: 0;
-  
 }
+
 .staff__title {
   color: white;
   max-width: 80%;
@@ -102,6 +114,7 @@ line-height: 30px;
   list-style-type: none;
   background-color: white;
 }
+
 .card__content {
   display: flex;
   flex-wrap: wrap;
@@ -114,6 +127,7 @@ line-height: 30px;
   font-size: 25px;
   width: 90%;
 }
+
 .card__text {
   font-size: 17px;
   width: 90%;
@@ -123,4 +137,3 @@ line-height: 30px;
   margin-top: auto;
   width: 90%;
 }
-
