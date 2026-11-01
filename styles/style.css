@@ -4,7 +4,42 @@ body {
   flex-direction: column;
   font-family: Arial, sans-serif;
 }
+.page{
 
+}
+.nav{
+
+}
+.nav__logo{
+
+}
+.nav__links{
+
+}
+.nav__link{
+
+}
+.header{
+
+}
+.header__content{
+
+}
+.header__title{
+
+}
+.header__description{
+
+}
+.header__image{
+
+}
+.header__address{
+
+}
+.header__footer{
+
+}
 .staff {
   display: flex;
   justify-content: center;
