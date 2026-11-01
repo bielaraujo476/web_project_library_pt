@@ -1,3 +1,4 @@
+/* Configurações básicas da página */
 body {
   display: flex;
   justify-content: center;
@@ -13,6 +14,7 @@ body {
   line-height: 20px;
 }
 
+/* Navegação */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -29,6 +31,7 @@ body {
   column-gap: 20px;
   list-style-type: none;
   margin-top: 8px;
+  margin-bottom: 0;
   padding-left: 0;
 }
 
@@ -38,6 +41,7 @@ body {
   font-weight: 700;
 }
 
+/* Elementos do cabeçalho */
 .header {
 }
 
@@ -76,7 +80,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("/web_project_library_pt_v4/images/staff_picks_background.jpg");
+  background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
