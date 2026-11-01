@@ -40,12 +40,10 @@ body {
 
 .header {
 }
-
 .header__content {
   display: flex;
   justify-content: space-between;
 }
-
 .header__title {
   max-width: 635px;
   margin-top: 128px;
@@ -53,24 +51,19 @@ body {
   line-height: 76px;
   font-weight: 500;
 }
-
 .header__description {
   max-width: 515px;
   margin-top: 32px;
   font-size: 20px;
   line-height: 30px;
 }
-
 .header__image {
   max-width: 636px;
 }
-
 .header__footer {
 }
-
 .header__address {
 }
-
 .staff {
   display: flex;
   justify-content: center;
