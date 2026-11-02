@@ -368,9 +368,10 @@ body {
   gap: 10px;
 }
 
-.footer__column-link {
-  color: white;
+.footer__link {
+  
   text-decoration: none;
+  color: white;
 }
 
 .footer__social-icon {
