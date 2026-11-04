@@ -39,6 +39,10 @@ body {
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+  padding: 0 80px;
 }
 
 .header__content {
@@ -86,7 +90,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 2000px;
+  padding:  80px ;
 }
 
 .staff__cards {
@@ -328,17 +332,17 @@ body {
 
 .footer__columns {
  display: flex;
- justify-content: space-between;
   align-items: flex-start;
 }
 
 .footer__column_content_hours {
- 
+ margin-left:auto;
+
   
 }
 
 .footer__column_content_social {
- 
+ margin-left: 80px;
 }
 
 .footer__logo {
